@@ -20,6 +20,13 @@ Here are some examples how the viewmodel class was designed and worked.
 private final KyberInteract kyberInteract;
 ```
 
+```
+public class KyberInteract {
+    private final KyberService kyberService;
+    private final PasswordStore passwordStore;
+}
+```
+
 - MutableLiveData holds data that is necessary to be observable in View class.
 
 ```
