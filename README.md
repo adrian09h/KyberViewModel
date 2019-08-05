@@ -19,7 +19,7 @@ Here are some examples how the viewmodel class was designed and worked.
 private final KyberInteract kyberInteract;
 ```
 
-- MatableLiveData holds data that is necessary to be observable in View class.
+- MutableLiveData holds data that is necessary to be observable in View class.
 
 ```
 private final MutableLiveData<GetGasPriceResponse> gasPrice = new MutableLiveData<>();
