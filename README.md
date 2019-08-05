@@ -22,8 +22,15 @@ private final KyberInteract kyberInteract;
 
 ```
 public class KyberInteract {
+
     private final KyberService kyberService;
     private final PasswordStore passwordStore;
+
+    public KyberInteract(KyberService kyberService,
+                         PasswordStore passwordStore) {
+        this.kyberService = kyberService;
+        this.passwordStore = passwordStore;
+    }
 }
 ```
 
