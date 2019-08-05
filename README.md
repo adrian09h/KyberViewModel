@@ -14,7 +14,7 @@ Here are some examples how the viewmodel class was designed and worked.
 - Prepare to get ready to make it work.
    https://github.com/adrian09h/KyberViewModel/blob/master/KyberViewModel.java#L118
    
-- Used Interact class instance to interacts with model,in detail, KyberInteract class interacts with persistance store and has a Service class instance to manages REST api calls and Web3 api calls.
+- Used Interact class instance to interacts with model,in detail, KyberInteract class interacts with persistance store and has a Service class instance that manages REST api calls and Web3 api calls.
 
 ```
 private final KyberInteract kyberInteract;
